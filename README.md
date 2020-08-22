@@ -1,5 +1,5 @@
 # Discord-Invite-Generator
-Generate a random discord invite
+Generate and check random discord invites
 
 # Usage
 python main.py
