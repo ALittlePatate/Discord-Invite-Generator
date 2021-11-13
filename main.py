@@ -43,7 +43,7 @@ def write_bad_file(dc_invite, today) :
         c.close()
 
 def check(invite_str, today, show_bad, write_bad, show_timeout, colors) :
-    apilink = "https://discordapp.com/api/v6/invite/" + invite_str
+    apilink = "https://discord.com/api/v8/invites/" + invite_str
 
     USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:65.0) Gecko/20100101 Firefox/65.0"
     headers = {"user-agent": USER_AGENT}
